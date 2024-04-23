@@ -1,0 +1,15 @@
+global using Xunit;
+global using AutoMapper;
+global using FluentAssertions;
+global using LibraryWebApi.Data;
+global using LibraryWebApi.Entities;
+global using LibraryWebApi.Mappings;
+global using LibraryWebApi.Repositories;
+global using LibraryWebApi.Tests.Fixtures;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Moq;
+global using LibraryWebApi.Controllers;
+global using LibraryWebApi.Dtos;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Logging;
